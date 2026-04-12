@@ -41,3 +41,6 @@ const server = http.createServer((req, res) => {
 server.listen(port, () => {
   console.log(`Server running at http://localhost:${port}/`);
 });
+
+// server.js
+console.log("Pipeline test success");
