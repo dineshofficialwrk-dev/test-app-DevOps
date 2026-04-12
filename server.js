@@ -25,7 +25,7 @@ const server = http.createServer((req, res) => {
 
   if (req.url === '/' || req.url === '/home') {
     res.statusCode = 200;
-    res.end(renderHtml('Home', '<h1>Welcome to Our Startup</h1><p>We build simple tools for the modern world.</p>'));
+    res.end(renderHtml('Home', '<h1>Welcome to Our Startup</h1><p>We build a simple tools for the modern world .</p>'));
   } else if (req.url === '/about') {
     res.statusCode = 200;
     res.end(renderHtml('About Us', '<h1>About Us</h1><p>We are a small, passionate team of developers.</p>'));
