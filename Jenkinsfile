@@ -5,6 +5,7 @@ pipeline {
         DOCKER_IMAGE = "dineshofficialwrk/devops-app"
     }
 
+    stages {   // ✅ MISSING BLOCK
 
         stage('Build Docker Image') {
             steps {
@@ -17,4 +18,6 @@ pipeline {
                 sh 'docker push $DOCKER_IMAGE:v1'
             }
         }
-    }
+
+    }  // ✅ CLOSE stages
+}
