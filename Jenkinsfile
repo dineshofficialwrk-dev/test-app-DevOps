@@ -5,12 +5,6 @@ pipeline {
         DOCKER_IMAGE = "dineshofficialwrk/devops-app"
     }
 
-    stages {
-        stage('Clone Repo') {
-    steps {
-        git branch: 'main', url: 'https://github.com/dineshofficialwrk-dev/test-app-DevOps.git'
-    }
-}
 
         stage('Build Docker Image') {
             steps {
@@ -24,4 +18,3 @@ pipeline {
             }
         }
     }
-}
