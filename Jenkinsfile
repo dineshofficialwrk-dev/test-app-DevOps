@@ -7,10 +7,10 @@ pipeline {
 
     stages {
         stage('Clone Repo') {
-            steps {
-                git 'https://github.com/dineshofficialwrk-dev/test-app-DevOps.git'
-            }
-        }
+    steps {
+        git branch: 'main', url: 'https://github.com/dineshofficialwrk-dev/test-app-DevOps.git'
+    }
+}
 
         stage('Build Docker Image') {
             steps {
