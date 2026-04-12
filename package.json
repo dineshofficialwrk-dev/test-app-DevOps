@@ -1,0 +1,11 @@
+{
+  "name": "devops-microservice",
+  "version": "1.0.0",
+  "description": "A very simple Node.js microservice for DevOps",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
