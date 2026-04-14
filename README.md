@@ -1,6 +1,6 @@
-# DevOps Test Microservice 🚀
+# Node Kubernetes CI/CD Pipeline 🚀
 
-A robust, minimal Node.js microservice designed for end-to-end CI/CD experimentation and DevOps workflows.
+A complete end-to-end DevOps template featuring a Node.js microservice with Docker containerization (Distroless), automated Jenkins CI/CD pipelines, and Kubernetes deployment manifests.
 
 ## 🌟 Overview
 This project serves as a template for testing modern DevOps practices, including containerization, continuous integration with Jenkins, and automated deployment on Kubernetes.
